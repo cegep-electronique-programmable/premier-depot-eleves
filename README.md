@@ -5,13 +5,13 @@ Exercice avec GitHub et Git pour la 2e semaine de E43
 * Commencer par ouvrir le fichier .ioc, __retirer le périphérique UART1__, puis générer le code
 * Tester que le projet compile toujours
 * Ajouter votre changement dans le fichier .ioc à la scène (staging) avec ```git add``` 
-* Faire un premier commit, soit avec GitHub à la ligne de commande, soit avec GitHub Desktop, avec le message suivant : ```Mon premier commit de E43!```
+* Faire un premier commit, soit avec git à la ligne de commande, soit avec GitHub Desktop, avec le message suivant : ```Mon premier commit de E43!```
 Avec la ligne de commande, on peut ajouter un message avec un commit de la façon suivante : 
 ```
 git commit -m"Le message"
 ```
 Notez l'espace entre le 'commit' et le '-m', ainsi que l'absence d'espace entre le '-m' et le reste du message
-* Dans le fichier ```usermain.c```, ajoutez une fonction qui imprime votre nom, caractère par caractère, sur le UART2
+* Dans le fichier ```usermain.c```, ajoutez une __fonction__ qui imprime votre nom, caractère par caractère, sur le UART2. Cette fonction devrait utiliser une boucle pour "traverser" une chaine de caractère.
 * Ajouter ce changement (__et seulement ce changement__) à la scène, puis faites un commit avec un message court, mais descriptif de votre ajout. Ici, pas besoin de phrases complètes, seulement des bons mots-clés cohérents font le travail.
 Note : Il est important ici de ne pas ajouter tous les fichiers générés par STMCubeMx. Il rendrait le projet lourd et désagréable à manipuler dans git
 * Poussez ce travail sur le dépôt distant
